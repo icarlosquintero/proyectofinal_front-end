@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./css/styles.css">
+<link rel="shortcut icon" href="img/icono 2.png">
+<title>Pastelera Rosa</title>
+</head>
+<body>
+
+    <div id="grilla">
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="hidden"></a></a>
+                <a href="Pages/productos.html">Productos</a>
+                <a href="Pages/recetas.html">Recetas</a>
+                <a href="Pages/delivery.html">Delivery</a>
+                <a href="Pages/contacto.html">Contacto</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+            </script>
+        </nav>
+        <header>
+            <div>
+                <a href="index.html"><img src="img/logo.png"></a>
+            </div>
+                
+        </header>
+
+        <section id="productos">
+
+            <div>
+                <h2>Nuestros Ingredientes</h2>
+                <p class="parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Aut nostrum consequatur eos sint maxime, eum, eveniet repudiandae 
+                    consectetur, libero corrupti numquam quam ipsam fuga? Omnis ea 
+                    accusamus nisi vitae tempore.</p>
+            </div>
+            <div>
+                <img src="img/ingredientes.webp">
+            </div>
+
+            <div>
+                <h2>Nuestros procesos productivos</h2>
+                <p class="parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Aut nostrum consequatur eos sint maxime, eum, eveniet repudiandae 
+                    consectetur, libero corrupti numquam quam ipsam fuga? Omnis ea 
+                    accusamus nisi vitae tempore.</p>
+            </div>
+            <div>
+                <img src="img/procesoproductivo.jpeg">
+            </div>
+
+            <div>
+                <h2>Nuestros compromisos</h2>
+                <p class="parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Aut nostrum consequatur eos sint maxime, eum, eveniet repudiandae 
+                    consectetur, libero corrupti numquam quam ipsam fuga? Omnis ea 
+                    accusamus nisi vitae tempore.</p>
+            </div>
+            <div>
+                <img src="img/nuestrocompromiso.jpeg">
+            </div>
+        </section>
+
+        <footer>
+            <p>Todos nuestros pedidos tienen un plazo de entrega de 48 horas</p>
+        </footer>
+   </div>
+   
+
+
+</body>
+</html>
